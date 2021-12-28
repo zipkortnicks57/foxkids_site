@@ -1,0 +1,333 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.menu-item a{
+    color: white;
+}
+
+#particles-js{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+  }
+.mainContainer{
+    background-image: url('./media/backside/newyear2.jpg');
+    /* height:100%; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 660px;
+}
+.header-menu-text{
+    display: flex;
+}
+.menu-item{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 16px;
+    text-align: end;
+}
+.runline{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 16px;
+    text-align: end;
+    background-color: black;
+    width: 620px;
+}
+.pumkin{
+    width:150px;
+    margin-right: 10px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+  }
+
+.header-panel{
+
+}
+.logoContainer{
+    display: flex;
+}
+.centralBox{
+    background-color: black;
+    padding: 10px 15px;
+    z-index: 1;
+}
+.centralContainer{
+    display: flex;
+    background-color: #940203;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centralSubcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottomSide{
+    width: 100%;
+    background-color: #940203;
+}
+.emptylink{
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.emptylink:hover{
+    text-decoration: none !important;
+}
+.footer{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+#playernLYwDnwqQSuR{
+    margin: 0px 10px;
+    width:640px !important;
+    height:480px !important;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom: 80px;
+}
+
+.sberbutton{
+    background-color: #fdf106;
+    color:black;
+    padding: 8px;
+    border-radius: 2px;
+    width: 216px;
+    text-align: center;
+    font-weight: bold;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+.footer-text{
+    margin: 8px 0px;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.player {
+    width:640px;
+    height:480px;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom: 80px;
+}
+
+.flex{
+    display: flex;
+
+}
+.vk{
+    margin-left: 10px;
+}
+
+.yelllow-table{
+    padding: 30px;
+    width: 510px;
+    /* color: white; */
+    border: 5px solid black;
+    background-color: #f2fc01;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+@media (orientation: portrait) {
+    #playernLYwDnwqQSuR{
+        width:880px !important;
+        height:600px !important;
+    }
+    .header-menu{
+        width:900px;
+    }
+    .runline{
+        width: 860px;
+    }
+  }
+
+  HTML CSSResult Skip Results Iframe
+EDIT ON
+/* Simple SVG Christmas Lights Animation */
+
+body {
+  background: #2AA5A0
+}
+.main-logo
+{
+    width:470px;
+    z-index: 3;
+}
+
+#Christmas_Lights {
+    height: 217px;
+    margin: 0;
+    position: absolute;
+    width: 701px;
+    z-index: 1;
+}
+
+.light_cord {
+  fill: none;
+  stroke: #174700;
+}
+
+.light_fixture {
+  fill: #134413;
+}
+
+.red_bulb {
+  fill: #CA2128;
+  stroke: #6D6D6D;
+  stroke-miterlimit: 10;
+}
+
+.green_bulb {
+  fill: #2D754A;
+  stroke: #6D6D6D;
+  stroke-miterlimit: 10;
+}
+
+.blue_bulb {
+  fill: #2C3EA8;
+  stroke: #6D6D6D;
+  stroke-miterlimit: 10;
+}
+
+.white_bulb {
+  fill: #F5EED7;
+  stroke: #6D6D6D;
+  stroke-miterlimit: 10;
+}
+
+.gold_bulb {
+  fill: #ffcc5e;
+  stroke: #6D6D6D;
+  stroke-miterlimit: 10;
+}
+
+
+/* Simply changing the opacity of the SVG fill to create the glow effect for the bulbs */
+
+.bulb {
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-name: glow;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+  animation-name: glow;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes glow {
+  0% {
+    fill-opacity: 0.25;
+  }
+  100% {
+    fill-opacity: 1
+  }
+}
+
+@keyframes glow {
+  0% {
+    fill-opacity: 0.25;
+  }
+  100% {
+    fill-opacity: 1.0
+  }
+}
+
+
+/* Made a set of ten animation delays to create a more random effect of lights blinking.  Simplest way without jumping through SVG hoops. */
+
+.blink-1 {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.blink-2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.blink-3 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.blink-4 {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.blink-5 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.blink-6 {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.blink-7 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.blink-8 {
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+.blink-9 {
+  -webkit-animation-delay: 0.95s;
+  animation-delay: 0.95s;
+}
+
+.blink-10 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
